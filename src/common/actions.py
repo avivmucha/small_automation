@@ -2,8 +2,8 @@ import time
 import  unittest
 from unittest import TestCase
 from selenium.webdriver.support.ui import WebDriverWait
-from utils import Driver_setup
-from utils.Driver_setup import driver_setup
+from small_automation.utils import Driver_setup
+from small_automation.utils.Driver_setup import driver_setup
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
