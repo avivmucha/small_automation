@@ -33,3 +33,4 @@ class Tests(TestLogin):
       time.sleep(2)
       assert self.my_driver.find_element(By.CLASS_NAME,'uagb-forms-success-message-173d6c98')
 
+
