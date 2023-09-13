@@ -23,7 +23,7 @@ class Tests(TestLogin):
       input_first_name = self.my_driver.find_element(By.XPATH,'//*[@id="post-24"]/div/div/form/div[1]/input')
       input_first_name.send_keys('ellie')
       input_last_name = self.my_driver.find_element(By.XPATH,'//*[@id="post-24"]/div/div/form/div[2]/input')
-      input_last_name.send_keys('berkshtein')
+      input_last_name.send_keys('berkhshtein')
       input_email = self.my_driver.find_element(By.XPATH,'//*[@id="post-24"]/div/div/form/div[3]/input')
       input_email.send_keys('2010elina2010@gmail.com')
       input_content = self.my_driver.find_element(By.XPATH,'//*[@id="post-24"]/div/div/form/div[4]/textarea')
